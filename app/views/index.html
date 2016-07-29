@@ -1,5 +1,11 @@
 {% extends "layout.html" %}
 
+{% block head %}
+  <link href="/public/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/public/stylesheets/tachyons.min.css" rel="stylesheet" />
+  <link href="/public/stylesheets/custom.css" rel="stylesheet" />
+{% endblock %}
+
 {% block page_title %}
   Webchat
 {% endblock %}
@@ -9,7 +15,7 @@
 <main id="content" role="main">
   <div class="grid-row">
     <div class="column-two-thirds">
-      <ul>
+      <ul class="mt5-ns mt4">
         <li><a href="/implementations/">Implementations</a></li>
         <li><a href="/jobseekers-allowance">Jobseeker's Allowance prototype</a></li>
         <li><a href="/universal-credit">Universal Credit prototype</a></li>
