@@ -121,9 +121,14 @@ $(document).ready(function () {
     window.open('https://secure.livechatinc.com/licence/7756631/open_chat.cgi', 'newwin', 'width=200,height=100')
   })
 
-  $('.js-trigger-custom-window').on('click', function (evt) {
+  $('.js-trigger-custom-window-v1').on('click', function (evt) {
     evt.preventDefault()
-    window.open('/implementations/custom-window', 'newwin', 'width=400,height=500')
+    window.open('/implementations/custom-window-v1', 'newwin', 'width=400,height=500')
+  })
+
+  $('.js-trigger-custom-window-v2').on('click', function (evt) {
+    evt.preventDefault()
+    window.open('/implementations/custom-window-v2', 'newwin', 'width=400,height=500')
   })
 
   $('.state-pension-age-next').on('click', function (evt) {
