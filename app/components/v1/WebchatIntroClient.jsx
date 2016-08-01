@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from '../lib/PropTypes'
+import PropTypes from '../../lib/PropTypes'
 import Button from './Button'
 import Input from './Input'
 import Label from './Label'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from '../lib/PropTypes'
+import PropTypes from '../../lib/PropTypes'
 
 function pad (n) { return n < 10 ? '0' + n : n }
 

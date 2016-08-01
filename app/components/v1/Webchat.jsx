@@ -1,7 +1,7 @@
 /* global io */
 import React, { Component } from 'react'
 import _ from 'lodash'
-import PropTypes from '../lib/PropTypes'
+import PropTypes from '../../lib/PropTypes'
 import WebchatIntroAgent from './WebchatIntroAgent'
 import WebchatIntroClient from './WebchatIntroClient'
 import WebchatConversation from './WebchatConversation'

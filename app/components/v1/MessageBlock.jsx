@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from '../lib/PropTypes'
+import PropTypes from '../../lib/PropTypes'
 import MessageTime from './MessageTime'
 
 export default class MessageBlock extends Component {

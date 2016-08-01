@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from '../lib/PropTypes'
-import WebchatV1 from './Webchat'
+import WebchatV1 from './v1/Webchat'
 // import WebchatV2 from './Webchat'
 
 export default class App extends Component {

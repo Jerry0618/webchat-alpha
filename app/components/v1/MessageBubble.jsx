@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classnames from 'classnames'
-import PropTypes from '../lib/PropTypes'
+import PropTypes from '../../lib/PropTypes'
 
 export default class MessageBubble extends Component {
   static propTypes = {

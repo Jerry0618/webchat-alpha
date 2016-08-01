@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import PropTypes from '../lib/PropTypes'
+import PropTypes from '../../lib/PropTypes'
 import Button from './Button'
 import Input from './Input'
 import MessageList from './MessageList'
