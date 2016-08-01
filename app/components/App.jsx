@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from '../lib/PropTypes'
 import WebchatV1 from './v1/Webchat'
-// import WebchatV2 from './Webchat'
+import WebchatV2 from './v2/Webchat'
 
 export default class App extends Component {
   static propTypes = {
@@ -16,6 +16,7 @@ export default class App extends Component {
         Webchat = WebchatV1
         break
       case '2':
+        Webchat = WebchatV2
         break
       default:
         Webchat = () => <div>Unrecognized Webchat version: {this.props.version}</div>
