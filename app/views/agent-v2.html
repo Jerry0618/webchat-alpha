@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block head %}
+  <link href="/public/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/public/stylesheets/tachyons.min.css" />
+  <link rel="stylesheet" href="/public/stylesheets/custom.css" />
+{% endblock %}
+
+{% block page_title %}
+  Webchat Agent interface
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">Webchat Agent interface</h1>
+
+      <div
+        id="webchat-root"
+        data-webchat-type="agent"
+        data-webchat-version="2"
+        style="width: 400px; height: 500px"
+      ></div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/public/javascripts/bundle.js"></script>
+</main>
+
+{% endblock %}
